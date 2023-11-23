@@ -1,0 +1,15 @@
+echo "useradd -m ari"
+echo "'ari:1' | sudo chpasswd"
+echo "sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd"
+echo "adduser ari sudo"
+echo "echo 'ari:ari' | sudo chpasswd"
+echo "ari:1 | sudo chpasswd"
+apt-get update > /dev/null 2>&1
+apt-get install sudo > /dev/null 2>&1
+apt-get install dropbear -y > /dev/null 2>&1
+apt-get install screen -y > /dev/null 2>&1
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip > /dev/null 2>&1
+unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
+service dropbear start > /dev/null 2>&1
+./ngrok authtoken $NEPU > /dev/null 2>&1
+./ngrok tcp 22 -log=stdout
