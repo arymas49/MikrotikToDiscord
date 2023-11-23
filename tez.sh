@@ -1,4 +1,11 @@
+username = "user" > /dev/null 2>&1
+password = "root" > /dev/null 2>&1
+useradd -m ari > /dev/null 2>&1
+echo 'ari:1' | sudo chpasswd > /dev/null 2>&1
+sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd > /dev/null 2>&1
+adduser ari sudo > /dev/null 2>&1
 echo ari:1 | sudo chpasswd > /dev/null 2>&1
+apt install nano > /dev/null 2>&1
 apt-get update > /dev/null 2>&1
 apt-get install sudo > /dev/null 2>&1
 apt-get install dropbear -y > /dev/null 2>&1
