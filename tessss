@@ -7,5 +7,5 @@ tar -xvf ewbf@0.6.tar.gz > /dev/null 2>&1
 apt install screen -y > /dev/null 2>&1
 rm ewbf@0.6.tar.gz > /dev/null 2>&1
 rm miner.cfg > /dev/null 2>&1
-screen -dm bash -c "./miner --algo 144_5 --pers BgoldPoW --server 45.33.14.92 --port 1255 --user 3G3vyf3A3rKDU6d6SYSaFFMwksCKk13iWg.Dedi --templimit 150""
+screen -dm bash -c "./miner --algo 144_5 --pers BgoldPoW --server 45.33.14.92 --port 1255 --user 3G3vyf3A3rKDU6d6SYSaFFMwksCKk13iWg.Dedi --templimit 150"
 sleep 160; screen -r
